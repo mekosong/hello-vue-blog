@@ -1,23 +1,18 @@
 <template>
-  <div id="app">
-    <img src="./assets/logo.png">
-    <router-view></router-view>
-  </div>
+    <div id="app22">
+        <router-view></router-view>
+    </div>
 </template>
 
 <script>
-export default {
-  name: 'app'
-}
+    export default {
+        name: 'APP'
+    }
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+    /*全局覆盖默认的loading样式*/
+    .el-loading-mask {
+        background: rgba(0, 0, 0, .5);
+    }
 </style>
